@@ -1,0 +1,147 @@
+h2{
+    color:#000000;
+ 
+}
+p{
+    color:#000000
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+  color:#000000;
+ 
+    background-color: #bc8f8f;
+}
+.body{
+    display: flex;
+    justify-content: center;
+  
+    background-color: #fd8072;
+}
+body{
+  
+   
+    background-color: lightslategray;
+}
+.grid{
+    border: 2px solid #000000;
+    border-radius: 20px;
+    display: flex;
+   flex-direction: row;
+
+  
+   background-color: #87cefd;
+  
+}
+.camel{
+    border-radius: 50px;
+    background-color: #ffffff;
+ padding: 20px;
+   margin: 20px;
+   width: 350px;
+  
+   background-color: #fda07a;
+   
+}
+.chameleon{
+    border-radius: 40px;
+    background-color: #ffffff;
+   padding: 20px;
+   margin: 20px;
+   width: 350px;
+   background-color: #fda07a;
+}
+.pigeon{
+    border-radius: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    background-color: #fda07a;
+    margin: 20px;
+   width: 350px;
+}
+.cicada{
+    border-radius: 40px;
+    background-color: #ffffff;
+   margin: 20px;
+    padding: 20px;
+   width: 350px;
+   background-color: #fda07a;
+}
+
+a:link{
+    color:white
+}
+a:visited{
+    color:black ;
+}
+.camel:hover img{
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+.chameleon:hover img{
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+.pigeon:hover img{
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+.cicada:hover img{
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+.camel h2{
+    opacity: 0;
+}
+.camel p{
+      opacity: 0;
+    }
+    .chameleon h2{
+        opacity: 0;
+    }
+    .chameleon p{
+          opacity: 0;
+        }
+        .pigeon h2{
+            opacity: 0;
+        }
+        .pigeon p{
+              opacity: 0;
+            }
+            .cicada h2{
+                opacity: 0;
+            }
+            .cicada p{
+                  opacity: 0;
+                }        
+
+.camel:hover h2{
+    opacity: 1;
+}
+.camel:hover p{
+    opacity: 1;
+}
+.chameleon:hover h2{
+    opacity: 1;
+}
+.chameleon:hover p{
+    opacity: 1;
+}
+.pigeon:hover h2{
+    opacity: 1;
+}
+.pigeon:hover p{
+    opacity: 1;
+}
+.cicada:hover h2{
+    opacity: 1;
+}
+.cicada:hover p{
+    opacity: 1;
+}
+.para{
+   
+    background-color: #eed700;
+}
+
